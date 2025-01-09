@@ -20,4 +20,6 @@ git:
 		Difference history can be scrolled down by `j` and up by `k` and you can quit it by `q`.
 		git diff => shows all changes from last commit. Lines added are green with + sign and removed are - with red sign.
 		git diff HEAD~<n> => compares and shows difference from n commits before last commit.
+	push operation:
+		git push -u origin <name of branch> => Pushes the branch named name to origin server; Please note: Origin must exists before pushing to it; to check origin use command git remote -v 
 		
