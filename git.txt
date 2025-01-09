@@ -12,3 +12,12 @@ git:
 		git add . => Add all files to staging area for commit
 		git add <name of file> => Add file named <name of file> for commit;
 		git status => shows current git status; commits/branch and stages changes;
+	commit operation:
+		git commit -m "message" => Commit all staged changes
+		git commit => opens up vim editor for writing commit message incase of big commit message
+		git log => shows all commit history; you can exit log view by pressing q
+	difference track:
+		Difference history can be scrolled down by `j` and up by `k` and you can quit it by `q`.
+		git diff => shows all changes from last commit. Lines added are green with + sign and removed are - with red sign.
+		git diff HEAD~<n> => compares and shows difference from n commits before last commit.
+		
