@@ -1,0 +1,19 @@
+ls command => List all directory or contents of a directory
+	ls -lah => List all directory including hidden directory in list format
+
+cd command => change directory
+	cd .. => Goto previous directory
+	cd <name> => Enter the directory by given name. You can use tab for autocomplete
+
+pwd command => Print working directory
+touch comand => Use to create files
+	touch main.cpp => creates a file named main.cpp in the current working directory.
+	touch foo/main.cpp => creates a file named main.cpp in the directory named foo relative to current directory.
+rm command => Use to remove files or directory
+	rm main.cpp => removes a file named main.cpp from current working directory
+	rm foo/main.cpp => removes a file named main.cpp from a directory named foo, relative to current working directory.
+	rm -rf <directory> => remove all content of directory and directory itself.
+mkdir command => Use to create a directory
+	mkdir <name> => creates a directory with given name
+	mkdir -p foo/bar => creates a directory structure like foo => bar; creating all missing directory.
+

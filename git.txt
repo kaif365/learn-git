@@ -1,0 +1,11 @@
+git:
+	initialise a directory with git:
+		git init => initialise a directory with git
+		git status => reports git status of a directory. If you get fatal not a git directory, make sure to initialise git.
+	check all branch names
+		git branch -v => shows all branch name with commit
+	branch operations:
+		git checkout -b <name of branch> => Switch to a new branch named, <name of branch> from current branch as base branch.
+		git checkout <name of branch> => Switch to a existing branch named <name of branch>; this is also called checkout
+		git branch -D <name of branch> => Deletes a branch named <name of branch>; You cannot delete a branch you are already cheked-in to.
+
