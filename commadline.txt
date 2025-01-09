@@ -16,4 +16,6 @@ rm command => Use to remove files or directory
 mkdir command => Use to create a directory
 	mkdir <name> => creates a directory with given name
 	mkdir -p foo/bar => creates a directory structure like foo => bar; creating all missing directory.
+cat command => Read content of a file
+	cat <name> => Read content of a file in text format
 
