@@ -8,4 +8,7 @@ git:
 		git checkout -b <name of branch> => Switch to a new branch named, <name of branch> from current branch as base branch.
 		git checkout <name of branch> => Switch to a existing branch named <name of branch>; this is also called checkout
 		git branch -D <name of branch> => Deletes a branch named <name of branch>; You cannot delete a branch you are already cheked-in to.
-
+	track operation:
+		git add . => Add all files to staging area for commit
+		git add <name of file> => Add file named <name of file> for commit;
+		git status => shows current git status; commits/branch and stages changes;
